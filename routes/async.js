@@ -1,7 +1,6 @@
 const router = require('express-promise-router')();
 const commonModule = require('../lib/commonModule');
 
-
 router.get('/', async function (req, res) {
   const param = { 'result': 'async' };      // レスポンスで返す値。JSON形式。
 
