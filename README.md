@@ -5,7 +5,7 @@ nodemon src/server.js
 ```
 
 ```
-localhost:5678/async
+get localhost:5678/async
 ```
 
 ```
