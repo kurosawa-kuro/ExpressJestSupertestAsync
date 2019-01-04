@@ -6,7 +6,7 @@ router.get('/', async function (req, res) {
   const param = { 'result': 'async' };      // レスポンスで返す値。JSON形式。
 
   console.log('Oh time flies so fast...');
-  await commonModule.sleep(3000);
+  await commonModule.sleep(6000);
   console.log('10 seconds passed.');
 
   res.header('Content-Type', 'application/json; charset=utf-8'); // 「レスポンスはJSON形式で返すよ」の意味
